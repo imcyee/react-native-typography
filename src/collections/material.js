@@ -71,17 +71,17 @@ const getStylesForColor = color => ({
     color: colors[color].primary
   },
   body2: {
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 24,
     ...systemWeights.semibold,
-    letterSpacing: Platform.OS === "ios" ? sanFranciscoSpacing(14) : undefined,
+    letterSpacing: Platform.OS === "ios" ? sanFranciscoSpacing(16) : undefined,
     color: colors[color].primary
   },
   body1: {
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 20,
     ...systemWeights.regular,
-    letterSpacing: Platform.OS === "ios" ? sanFranciscoSpacing(14) : undefined,
+    letterSpacing: Platform.OS === "ios" ? sanFranciscoSpacing(16) : undefined,
     color: colors[color].primary
   },
   caption: {
